@@ -1,0 +1,1 @@
+const myArray = [["Java",23],["Script",65]];

@@ -1,0 +1,1 @@
+const myArray = ["open",5];
