@@ -1,8 +1,20 @@
-// Setup
-let processed = 0;
+// Declare the myGlobal variable below this line
+let myGlobal =10;
 
-function processArg(num) {
-  return (num + 3) / 5;
+function fun1() {
+  // Assign 5 to oopsGlobal Here
+oopsGlobal = 5;
 }
-processed =processArg(7);
-// Only change code below this line
+
+// Only change code above this line
+
+function fun2() {
+  var output = "";
+  if (typeof myGlobal != "undefined") {
+    output += "myGlobal: " + myGlobal;
+  }
+  if (typeof oopsGlobal != "undefined") {
+    output += " oopsGlobal: " + oopsGlobal;
+  }
+  console.log(output);
+}
